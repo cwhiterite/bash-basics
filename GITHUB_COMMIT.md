@@ -5,21 +5,25 @@ This document outlines the steps taken to commit the `bash-basics` project to Gi
 ## Steps Performed
 
 1. **Initialize Git Repository**
+
    ```bash
    git init
    ```
 
 2. **Add All Files to Staging**
+
    ```bash
    git add .
    ```
 
 3. **Commit Changes**
+
    ```bash
    git commit -m "Initial commit: add hello_world.sh, reference.md, shortcuts.md"
    ```
 
 4. **Add Remote Origin (GitHub Repository)**
+
    ```bash
    git remote add origin https://github.com/cwhiterite/bash-basics
    ```
@@ -37,7 +41,7 @@ This document outlines the steps taken to commit the `bash-basics` project to Gi
 
 ## Notes
 
-- Ensure you have write access to the repository.
+- Ensure you always have write access to the repository.
 - If the repository already exists, you may need to force push or resolve conflicts.
 - Consider renaming the default branch to `main` if preferred:
   ```bash
